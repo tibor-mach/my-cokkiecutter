@@ -20,3 +20,10 @@ source .venv/bin/activate
 
 At the moment, it is necessary to manually rewrite all occurences of `my-cookiecutter`
 in the repo structure and in `pyproject.toml` to the actual project name.
+
+The documentation can be built (into html) by going to the `docs/source` directory
+and calling
+
+```
+make html
+```
